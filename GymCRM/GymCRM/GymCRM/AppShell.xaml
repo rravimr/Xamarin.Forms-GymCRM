@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:GymCRM.Views"
+       Title="Gym CRM"
+       x:Class="GymCRM.AppShell">
+
+
+
+    <FlyoutItem Title="Dashboard"
+                FlyoutIcon="dashboard_light.png" >
+        <Tab>
+            <ShellContent>
+                <local:DashboardPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Sales"
+                FlyoutIcon="{AppThemeBinding Light=dashboard_light, Dark=dashboard_dark}" >
+        <Tab>
+            <ShellContent>
+                <local:DashboardPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Packages"
+                FlyoutIcon="{AppThemeBinding Light=dashboard_light, Dark=dashboard_dark}" >
+        <Tab>
+            <ShellContent>
+                <local:PackagePage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Customers"
+                FlyoutIcon="{AppThemeBinding Light=dashboard_light, Dark=dashboard_dark}" >
+        <Tab>
+            <ShellContent>
+                <local:DashboardPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Settings"
+                FlyoutIcon="{AppThemeBinding Light=dashboard_light, Dark=dashboard_dark}" >
+        <Tab>
+            <ShellContent>
+                <local:DashboardPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+</Shell>

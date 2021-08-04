@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              Visual="Material"
+              Shell.NavBarHasShadow="False"
+             x:Class="GymCRM.Views.PackagePage">
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Margin="20">
+            <Button   Style="{StaticResource PrimaryButton}"
+                TextColor="White"
+                BorderWidth="0"
+                HorizontalOptions="End"
+                Text="Add"
+                VerticalOptions="Center"
+                Command="{Binding GoToAddCategoryCommand}"/>
+            <SearchBar Grid.Row="1"
+                       x:Name="categorySearchBar"
+                       Margin="0,0,0,0"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

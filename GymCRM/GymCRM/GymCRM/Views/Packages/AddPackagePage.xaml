@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controls:ModalContentPage xmlns:controls="clr-namespace:GymCRM.Shared.Controls" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              Visual="Material"             
+             xmlns:local="clr-namespace:GymCRM.Views"
+              Shell.NavBarHasShadow="False"
+             x:Class="GymCRM.Views.AddPackagePage">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <StackLayout Spacing="20" Orientation="Horizontal" HorizontalOptions="End">
+                <Button   Style="{StaticResource PrimaryButton}"
+                TextColor="White"
+                BorderWidth="0"
+                Text="Cancel"
+                 Command="{Binding CancelCommand}"
+                VerticalOptions="Center"/>
+                <Button   Style="{StaticResource PrimaryButton}"
+                TextColor="White"
+                BorderWidth="0"
+                Text="Save"
+                 Command="{Binding SaveCommand}"
+                VerticalOptions="Center"/>
+            </StackLayout>
+            <ScrollView >
+            <StackLayout Spacing="20">
+                    <Label Style="{StaticResource TextHeadline}"
+                       Text="Add Package" />
+                    <local:ModifyPackagePage/>
+            </StackLayout>
+        </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</controls:ModalContentPage>
