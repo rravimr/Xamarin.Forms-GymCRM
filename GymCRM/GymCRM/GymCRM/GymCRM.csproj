@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Common\Styles\DefaultTheme.xaml">
+    <EmbeddedResource Update="Shared\Styles\DefaultTheme.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Dashboard\DashboardPage.xaml">

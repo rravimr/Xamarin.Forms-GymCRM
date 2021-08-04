@@ -5,7 +5,7 @@ using System;
 using System.Reflection;
 using Module = Autofac.Module;
 
-namespace GymCRM.Core
+namespace GymCRM.Core.Application
 {
     public class ApplicationModule : Module
     {

@@ -1,8 +1,9 @@
 ﻿using Autofac;
+using GymCRM.Core.Application;
 using System;
 using Module = Autofac.Module;
 
-namespace GymCRM.Core
+namespace GymCRM.Presentation
 {
     public class GymCRMModule : Module
     {

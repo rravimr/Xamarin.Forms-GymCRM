@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
-using GymCRM.Core.Interfaces;
-using GymCRM.Core.Messages;
+using GymCRM.Core.Application.Common.Interfaces;
+using GymCRM.Core.Application.Common.Messages;
 using GymCRM.Shared;
 using MediatR;
 using System;

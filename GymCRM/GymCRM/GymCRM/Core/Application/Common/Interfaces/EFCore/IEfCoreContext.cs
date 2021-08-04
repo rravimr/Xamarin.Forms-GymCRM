@@ -1,4 +1,4 @@
-﻿using GymCRM.Domain;
+﻿using GymCRM.Core.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace GymCRM.Core.Interfaces
+namespace GymCRM.Core.Application.Common.Interfaces
 {
     public interface IEfCoreContext : IDisposable
     {

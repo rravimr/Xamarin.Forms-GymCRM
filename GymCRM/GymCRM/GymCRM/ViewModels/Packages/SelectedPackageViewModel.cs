@@ -1,6 +1,6 @@
 ﻿using GalaSoft.MvvmLight;
-using GymCRM.Core.Interfaces;
-using GymCRM.Domain;
+using GymCRM.Core.Application.Common.Interfaces;
+using GymCRM.Core.Domain;
 using System;
 using System.Collections.Generic;
 using System.Text;

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GymCRM.Core.Interfaces
+namespace GymCRM.Core.Application.Common.Interfaces
 {
     public interface IContextAdapter
     {

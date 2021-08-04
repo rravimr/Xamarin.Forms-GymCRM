@@ -2,6 +2,7 @@
 using Autofac;
 using GalaSoft.MvvmLight.Messaging;
 using GymCRM.Core;
+using GymCRM.Presentation;
 using System;
 using System.Collections.Generic;
 using System.Linq;

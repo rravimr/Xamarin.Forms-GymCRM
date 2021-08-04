@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace GymCRM.Domain
+namespace GymCRM.Core.Domain
 {
     public class Package
     {
@@ -23,11 +23,9 @@ namespace GymCRM.Domain
 
         [Required] public string Name { get; private set; } = "";
 
-        [Required]
         public int Months { get; set; }
 
 
-        [Required]
         public double Amount { get; set; }
 
         public DateTime ModificationDate { get; private set; }

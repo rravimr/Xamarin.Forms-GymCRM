@@ -1,4 +1,5 @@
-﻿using GymCRM.Core.Interfaces;
+﻿using GymCRM.Core.Application.Common.Helpers;
+using GymCRM.Core.Application.Common.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

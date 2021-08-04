@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace GymCRM.Domain.Commands
+namespace GymCRM.Core.Domain.Commands
 {
     public class CreatePackageCommand : IRequest
     {

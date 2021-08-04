@@ -9,7 +9,7 @@
     <Application.Resources>
         <ResourceDictionary>
             <vm:ViewModelLocator x:Key="Locator"></vm:ViewModelLocator>
-            <ResourceDictionary Source="/Common/Styles/DefaultTheme.xaml" />
+            <ResourceDictionary Source="/Shared/Styles/DefaultTheme.xaml" />
         </ResourceDictionary>        
     </Application.Resources>
 </Application>

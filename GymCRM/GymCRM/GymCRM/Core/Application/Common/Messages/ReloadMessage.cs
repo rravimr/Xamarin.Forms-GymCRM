@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GymCRM.Core.Messages
+namespace GymCRM.Core.Application.Common.Messages
 {
     public class ReloadMessage
     {
